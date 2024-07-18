@@ -3,6 +3,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/javascript.js to edit this template
  */
 
+//function fixSize(){
+//    console.log(document.getElementsByClassName('rezume')[0]);
+//    document.getElementsByClassName('rezume')[0].setAttribute("style","widht:500px");
+//}
+
 //срабатывает при загрузке web page
 $(document).ready(function () {
     console.log("ready!");
@@ -10,11 +15,13 @@ $(document).ready(function () {
     //показать alert по клику кнопки с id
     $("#openDBBestDialog").click(function () {
         alert("Я работал в DBBest!");
+        return false;
     });
     
     //показать alert по клику кнопки с id
     $("#openGlovoDialog").click(function () {
         alert("Я работал в Глово!");
+        return false;
     });
 
     //поочередно меняет состояния анимации если класс player(картинка) были кликнуты
@@ -26,6 +33,6 @@ $(document).ready(function () {
         }
     });
 
-
+    //fixSize();
 });
 

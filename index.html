@@ -8,9 +8,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <title>HTML Резюме</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--importing css style-->
         <link href="style.css" type="text/css" rel="stylesheet">
+        
+        <!--importing scripts-->
         <script src="res/JQuery/jquery-2.1.1.min.js"></script>
-        <script src="scripts.js"></script>    </head>
+        <script src="scripts.js"></script>    
+    </head>
     <body>
 
         <div class="rezume">
@@ -20,11 +25,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             </header>
 
             <div class="myText">
-                <div>Лазарев Павел Юрьевич</div>
+                <div id="fio">Лазарев Павел Юрьевич</div>
                 <input type="date" value="1997-01-19" />
             </div>
 
-            <table class="educationTable">
+            <table id="educationTable">
                 <caption>ОСВІТА</caption>
                 <thead>
                     <tr>
@@ -45,7 +50,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 </tr>
             </table>
 
-            <table class="workTable">
+            <table id="workTable">
                 <caption>КАРЬЕРА</caption>
                 <thead>
                     <tr>
@@ -56,37 +61,26 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 </thead>
                 <tr>
                     <td>Май 2019 - Январь 2020</td>
-                    <td><a id="openDBBestDialog" href="">DBBest </a>Програміст</td>
+                    <td><a id="openDBBestDialog" href="">DBBest</a> Програміст</td>
                     <td>Розробляв користувацький інтерфейс на технології JavaFx</td>
                 </tr> 
                 <tr>
                     <td>Декабрь 2021 - Февраль 2022</td>
-                    <td><a id="openGlovoDialog" href="">Glovo </a>Кур'ер</td>
+                    <td><a id="openGlovoDialog" href="">Glovo</a> Кур'ер</td>
                     <td>Доставка замовлень клієнтам</td>
                 </tr>
             </table>
 
 
-            <div class="hobbyContainer">
+            <div id="hobbyContainer" class="myText">
                 <div class="title0">ХОББІ</div>
-                <div>За часів навчання в університеті я полюбляв грати у великий теніс</div>
+                <p>За часів навчання в університеті я полюбляв грати у великий теніс</p>
                 <img id ="img1" class="player" src="res/img/tennis_r.png" height="100" width="200" alt="tennis"/>
             </div>
-            <!--            <div class="hobbyContainer" style="display: false;">
-                            <div class="title0">ХОББІ</div>
-                            <div>За часів навчання в університеті я полюбляв грати у великий теніс</div>
-                            <div class="court">
-                                <img id ="img1" class="player" src="res/img/tennis_r.png" height="100" width="200"/><br>
-                                <img id="tennisBall" class="ball" src="res/img/ball.jfif" height="50" width="50"/><br>
-                                <img id ="img2" class="player" src="res/img/tennis_r.png" height="100" width="200" style="transform: scale(-1, 1);"/>
-                            </div>
-                        </div>-->
 
             <footer>
                 &copy; 2024 Все права защищены. Email для связи lazazerovich@gmail.com
             </footer>
         </div>
-
-
     </body>
 </html>
