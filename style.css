@@ -1,0 +1,81 @@
+body {
+    background-color: lightblue;
+    /*font: italic small-caps normal 20px/1.4 sans-serif;*/
+  /*#d5f0dc*/
+}
+
+header {
+    line-height: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #808080;
+    color: #f9f9f9;
+}
+.myText{
+    font-size: 20px;
+    color: black;
+}
+.rezume{
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+/*------TABLE BEGIN*/
+table,th,td{
+    border: 1px solid grey;
+    text-align:center;
+}
+
+th,td{
+    padding:10px;
+}
+caption, .title0{
+    font-size:20px;
+    color:blue;
+}
+/*TABLE END------------*/
+.court{
+    border: 8px dashed #444;
+    /*height: 400px;*/
+    /*width: 600px;*/
+}
+#tennisBall{
+    
+}
+/*animation*/
+.player {
+  font-family: monospace;
+/*  background-color: gold;
+  color: #222;*/
+  /*font-size: 16px;*/
+  /*line-height: 1.45;*/
+  /*width: 175px;*/
+  text-align: center;
+  /*padding: 36px 16px;*/
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .45);
+  /*cursor: pointer;*/
+  /*transition: box-shadow .15s linear;*/
+  animation: move 3s infinite paused;
+}
+
+.player:hover {
+  box-shadow: 1px 1px 1px 1px #000;
+}
+
+@keyframes move {
+  0% { margin-left: 0px; }
+  40% { margin-left: -250px; }
+  80% { margin-left: 250px; }
+  100% { margin-left: 0px; }
+}
+
+
+footer {
+    line-height: 50px;
+    background-color: #000;
+    color: #f1f1f1;
+    margin-top: 16px;
+}
+
+
+
