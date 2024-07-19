@@ -8,6 +8,7 @@ body{
     background-color: yellowgreen;
     height: 100%;
     width: 100%;
+    min-width: 500px;
 }
 
 .rezume header h4{
@@ -35,6 +36,7 @@ body{
 }
 .rezume th, td{
     padding:10px;
+    border: 1px solid grey;
 }
 /*TABLE END*/
 

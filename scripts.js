@@ -3,10 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/javascript.js to edit this template
  */
 
-//function fixSize(){
-//    console.log(document.getElementsByClassName('rezume')[0]);
-//    document.getElementsByClassName('rezume')[0].setAttribute("style","widht:500px");
-//}
 
 //срабатывает при загрузке web page
 $(document).ready(function () {
@@ -17,7 +13,7 @@ $(document).ready(function () {
         alert("Я работал в DBBest!");
         return false;
     });
-    
+
     //показать alert по клику кнопки с id
     $("#openGlovoDialog").click(function () {
         alert("Я работал в Глово!");
@@ -33,6 +29,5 @@ $(document).ready(function () {
         }
     });
 
-    //fixSize();
 });
 
